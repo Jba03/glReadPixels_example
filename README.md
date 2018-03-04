@@ -41,6 +41,7 @@ void capture(GLFWwindow* window)
 ```
 
 The rendered lossless sequence of images can then be scaled up with something like [ffmpeg](https://www.ffmpeg.org):
+
 `ffmpeg -r 60 -f image2 -filter_complex scale=iw*3:ih*3 -i ./Capture_%04d.tga -vcodec libx264 -crf 0 -pix_fmt yuv420p encode.mp4`
 
 A test encoding is supplied, alt. a [youtube video](https://www.youtube.com/watch?v=5WKc3bgXXVg).
