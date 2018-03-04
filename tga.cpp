@@ -1,9 +1,6 @@
 /*
-   Example of glReadPixels.
- 
-   Due to OpenGL's behaviour, the image produced will be flipped. This is not covered here, as this only is a raw example.
+   Example of glReadPixels, encoding a targa (.tga) file.
 */
- 
 
 #include <iostream>
 #include <GL/glew.h>
