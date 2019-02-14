@@ -46,9 +46,6 @@ The rendered lossless sequence of images can then be scaled up with something li
 
 A test encoding is supplied, alt. a [youtube video](https://www.youtube.com/watch?v=5WKc3bgXXVg).
 
-
-`60 images (1s) @ 1280x720 = ~166mb (~166mb / second)`
-
 Link against:
 - GLFW
 - GLEW
